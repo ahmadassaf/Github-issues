@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "github-issues",
     "version": "1.0.0",
     "description": "",
@@ -22,4 +23,39 @@
         "stylus-loader": "^0.5.0",
         "webpack": "^1.4.15"
     }
+=======
+  "name": "regedit",
+  "version": "2.2.5",
+  "description": "Read, Write, List and do all sorts of funky stuff to the windows registry using node.js and windows script host",
+  "keywords": [
+    "windows",
+    "registry"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "dependencies": {
+    "debug": "^2.1.1",
+    "if-async": "^3.7.4",
+    "stream-slicer": "0.0.6",
+    "through2": "^0.6.3"
+  },
+  "author": "Yaniv Kessler",
+  "bugs": {
+    "url": "https://github.com/ironSource/node-regedit/issues"
+  },
+  "os": [
+    "win32"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ironSource/node-regedit"
+  },
+  "homepage": "https://github.com/ironSource/node-regedit",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^4.4.2"
+  }
+>>>>>>> 45514bed635114891589abc2c554458417c3b8fc
 }

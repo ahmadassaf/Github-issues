@@ -25,7 +25,7 @@
     }
 =======
   "name": "regedit",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "description": "Read, Write, List and do all sorts of funky stuff to the windows registry using node.js and windows script host",
   "keywords": [
     "windows",
@@ -55,6 +55,7 @@
   "homepage": "https://github.com/ironSource/node-regedit",
   "license": "MIT",
   "devDependencies": {
+    "mocha": "^2.3.4",
     "should": "^4.4.2"
   }
 >>>>>>> 45514bed635114891589abc2c554458417c3b8fc
